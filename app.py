@@ -393,7 +393,7 @@ for index, row in deni_stats.iterrows():
 
 # Create the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 # Add this block for the CSS
 app.index_string = '''
 <!DOCTYPE html>
