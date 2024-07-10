@@ -20,7 +20,6 @@ import plotly.express as px
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output
 import logging
-from google.colab import output
 from nba_api.stats.endpoints import shotchartdetail
 from nba_api.stats.static import players
 from nba_api.stats.endpoints import playergamelog
